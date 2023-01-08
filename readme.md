@@ -1,5 +1,5 @@
 # HTML e CSS
 
-Curso de html ddo curso em vídeo
+Curso de html do curso em vídeo
 
 Estou aprendendo a gerenciar repositorios
