@@ -1,0 +1,90 @@
+body {
+    border: solid 1px black;
+    margin: auto;
+    width: 40%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header p{
+    margin-top: 0;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    font-family: 'Sriracha', cursive;
+}
+
+main div {
+    margin: 40px 0;
+    border: blue 1px solid;
+}
+
+main p {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#one {
+    border: 0;
+}
+
+#two {
+    background-image: url(../pacote-d012/imagens/girassol.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+#three {
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#four {
+    border: 0;
+    margin-top: 0;
+}
+
+#five{
+    background-image: url(../pacote-d012/imagens/carta.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    color: purple;
+    margin-bottom: 0;
+}
+
+#five span {
+    color: violet;
+}
+
+
+#six {
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#seven {
+    border: 0;
+    margin-top: 0;
+}
