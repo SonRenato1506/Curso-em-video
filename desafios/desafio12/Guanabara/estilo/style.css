@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --fonte01: ;
+}
+
 * {
     margin: 0px;
     padding: 0px;
