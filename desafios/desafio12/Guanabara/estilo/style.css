@@ -55,7 +55,7 @@ section {
     font-size: 1.5em;
 }
 
-section > p {
+section>p {
     padding-bottom: 2em;
 }
 
@@ -70,7 +70,6 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px black;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 section.imagem>p {
