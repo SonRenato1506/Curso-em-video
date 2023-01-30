@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th {
+            border: 1px solid gray;
+            width: 100px;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <tr>
+            <th colspan="4">A</th>
+            <th rowspan="4">B</th>
+        </tr>
+        <tr>
+            <th rowspan="4">C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+        </tr>
+        <tr>
+            <th>G</th>
+            <th>H</th>
+            <th>I</th>
+        </tr>
+        <tr>
+            <th>J</th>
+            <th>L</th>
+            <th>M</th>
+        </tr>
+        <tr>
+            <th colspan="4">N</th>
+        </tr>
+    </table>
 </body>
 </html>
