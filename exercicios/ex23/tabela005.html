@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,15 +21,42 @@
             padding: 8px;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid black;
             padding: 10px;
         }
+
+        .destaque {
+            background-color: chartreuse;
+        }
+
+        col.cNome {
+            background-color: chartreuse;
+        }
+
+        col.cGrupo {
+            background-color: red;
+        }
+
+        /*
+        col.cIdade {
+
+        }
+        col.cProfissao {
+
+        } */
     </style>
 </head>
+
 <body>
     <h1>Exercício de tabela</h1>
     <table>
+        <colgroup>
+            <col class="cNome">
+            <col class="cGrupo" span="2">
+            <col class="cProfissao">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -49,7 +77,7 @@
             <td>Programador</td>
         </tr>
         <tr>
-            <td class="destaque">Arthur</td>
+            <td>Arthur</td>
             <td>M</td>
             <td>1</td>
             <td>Lutador de Karatê</td>
@@ -74,4 +102,5 @@
         </tr>
     </table>
 </body>
+
 </html>
