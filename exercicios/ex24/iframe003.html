@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframe</title>
     <style>
-        body  {
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -16,23 +17,36 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Faça uma escolha</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ipsum odio veniam accusantium, voluptatem voluptate fuga quis impedit id ea quas vel. Sequi debitis omnis aut illum tempore. Facere, illum.</p>
-    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ipsum odio veniam accusantium, voluptatem voluptate
+        fuga quis impedit id ea quas vel. Sequi debitis omnis aut illum tempore. Facere, illum.</p>
+
     <ul>
         <li><a href="pags/pag001.html" target="frame">Primeira página</a></li>
         <li><a href="./pags/pag002.html" target="frame">Segunda página</a></li>
         <li><a href="./pags/pag003.html" target="frame">Terceira página</a></li>
     </ul>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias quas natus suscipit ea animi ipsa doloribus rem, earum error voluptates voluptatum aperiam. Quidem ea quia sunt vitae perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum velit nihil laudantium ad deserunt labore aspernatur recusandae explicabo perferendis? Mollitia harum inventore at velit nihil itaque unde ab voluptas.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a molestias quas natus suscipit ea animi ipsa
+        doloribus rem, earum error voluptates voluptatum aperiam. Quidem ea quia sunt vitae perspiciatis. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Commodi illum velit nihil laudantium ad deserunt labore aspernatur
+        recusandae explicabo perferendis? Mollitia harum inventore at velit nihil itaque unde ab voluptas.</p>
 
-    <iframe id="tela" name="frame" src="">
+    <iframe id="tela" name="frame"
+        srcdoc="
+        <h1>Escolha uma das opções acima</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptate accusantium praesentium quis ducimus quas quisquam, blanditiis suscipit officia eum dicta aliquid deserunt delectus, eos error, ex ipsam neque dolore.</p>">
         <p>Infelizmente seu computador não é compatível com isso.</p>
     </iframe>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores expedita consectetur doloremque numquam, non quasi? Quia mollitia asperiores ullam ipsum maiores at expedita magni, accusantium quod veritatis, natus voluptas? Consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptate culpa perspiciatis iure id numquam nesciunt tempora recusandae repudiandae aut labore, natus voluptatem, voluptatibus assumenda earum consequatur quisquam eligendi deleniti!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores expedita consectetur doloremque numquam, non
+        quasi? Quia mollitia asperiores ullam ipsum maiores at expedita magni, accusantium quod veritatis, natus
+        voluptas? Consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptate culpa
+        perspiciatis iure id numquam nesciunt tempora recusandae repudiandae aut labore, natus voluptatem, voluptatibus
+        assumenda earum consequatur quisquam eligendi deleniti!</p>
 
 </body>
+
 </html>
