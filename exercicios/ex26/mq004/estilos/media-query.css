@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* Todas as demais mídias */
+/* Pequenas telas: até 600px  */
+/* Celular: de 600px até 768px */
+/* Tablet:  */
+/* Impressora: */
+/* PC: */
+/* Grandes Telas: */
 
 @media print {
     
