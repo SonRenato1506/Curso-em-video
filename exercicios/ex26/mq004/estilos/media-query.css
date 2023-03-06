@@ -29,6 +29,9 @@
     body {
         /* background: black url(../Imagens/back-print.jpg) no-repeat;  DESNECESSÁRIO*/
         font-family: 'Courier New', Courier, monospace;
+    }
+
+    main h1{
         text-shadow: none;
         color: black;
     }
