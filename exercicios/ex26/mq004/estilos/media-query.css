@@ -2,12 +2,132 @@
 
 /* Todas as demais mídias */
 /* Pequenas telas: até 600px  */
-/* Celular: de 600px até 768px */
-/* Tablet:  */
-/* Impressora: */
-/* PC: */
-/* Grandes Telas: */
+/* Celular: de 601px até 768px */
+/* Tablet:  de 769px até 992px*/
+/* Desktop: de 993px até 1200px*/
+/* Grandes Telas: acima de 1200px*/
 
+/* Impressora */
 @media print {
-    
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    /* img#print {display: none;} */
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+    body {
+        /* background: black url(../Imagens/back-print.jpg) no-repeat;  DESNECESSÁRIO*/
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 768px) {
+
+    /* img#phone {display: none;} */
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    img#phone {
+        display: none;
+    }
+
+    /* img#tablet {display: none;} */
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+    body {
+        background: black url(../Imagens/back-tablet.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    /* img#pc {display: none;} */
+    img#tv {
+        display: none;
+    }
+    body {
+        background: black url(../Imagens/back-pc.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* TV */
+@media screen and (min-width: 1201px) {
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    /* img#tv {display: none;} */
+
+    body {
+        background: black url(../Imagens/back-tv.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 }
