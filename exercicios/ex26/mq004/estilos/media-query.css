@@ -31,9 +31,19 @@
         font-family: 'Courier New', Courier, monospace;
     }
 
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
     main h1{
         text-shadow: none;
         color: black;
+    }
+
+    main::after {
+        content: "Esta impressão foi feita através do site www.cursoemvideo.com";
+        text-decoration: overline;
     }
 }
 
